@@ -1,0 +1,33 @@
+.contact-form{
+    display: flex;
+    
+    &-container{
+        width: 65rem;
+    }
+    &-form{
+        display: flex;
+        flex-direction: column;
+        color: $color-black;
+        margin-left: 15rem;
+        width: 45rem;
+        margin-top: 20rem;
+       
+        
+        &-input{
+            width: 100%;
+            border: solid 2px $color-grey ;
+            font-family: 'Open Sans', sans-serif;
+        }
+        &-label{
+            padding-top: 0.5rem;
+            padding-bottom: 0.75rem;
+            //margin-top:0.4rem
+        }
+        &-btn{
+            margin-top: 1rem;
+        }
+    }
+}
+#contact-form-form-message{
+    height: 20rem;
+}

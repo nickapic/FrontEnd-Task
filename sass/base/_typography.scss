@@ -1,0 +1,111 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.7;
+    color: $color-white;
+}
+.logo-text{
+    display: inline-block;
+    font-size: 3.1rem;
+    text-transform: uppercase;
+}
+.welcome_box{
+    &-heading{
+        font-size: 4.7rem;
+        color: $color-white;
+        text-transform: uppercase;
+        font-weight: 800;
+    }
+    &-paragraph{
+        font-size: 1.7rem;
+        color: $color-white;
+        font-weight: 400;
+    }
+}
+.image_box{
+    color: $color-black;
+    &-heading{
+        font-size: 2.1rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &-paragraph{
+        font-size: 1.9rem;
+        font-weight: 400;
+    }
+}
+.web_development-container{
+    &-heading{
+        font-size: 1.9rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &-paragraph{
+        font-size: 1.7rem;
+        font-weight: 400;
+        
+    }
+}
+.wireframe-container{
+    &-heading{
+        font-size: 1.9rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &-paragraph{
+        font-size: 1.7rem;
+        font-weight: 400;
+    }
+}
+.contact-form-container{
+    color: $color-black;
+    &-heading{
+        font-size: 4.7rem;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &-paragraph{
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+}
+.contact-form-form{
+    &-label{
+        font-size: 1.7rem;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    &-input{
+        font-size:1.7rem;
+        padding: 1rem;
+        font-size: 400;
+    }
+}
+.footer-main{
+    &-items{
+        list-style: none;
+        margin-left: 2rem ;
+        color: $color-white;
+    }
+    &-btn{
+        font-size: 1.5rem;
+        color: $color-white;
+        list-style: none;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+}
+.footer-box-text-paragraph{
+    font-size: 1.5rem;
+    color: $color-white;
+}
+.copyright_text{
+    font-size: 1.2rem;
+    color: $color-white;
+}
+.copyright_text-logo-text{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+}

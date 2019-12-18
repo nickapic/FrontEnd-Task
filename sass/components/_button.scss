@@ -1,0 +1,21 @@
+.welcome_box-border-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid $color-white 0.5rem;
+    font-size: 1.5rem;
+    padding: 0.5rem 1rem;
+    color:$color-white;
+    font-weight: 700;
+    background-color: $color-btn;
+}
+.contact-form-border-btn{
+    text-decoration: none;
+    text-transform: uppercase;
+    border: solid $color-btn 0.5rem;
+    font-size: 1.5rem;
+    width: 7rem;
+    padding: 0.5rem 1rem;
+    color:$color-btn;
+    font-weight: 700;
+    background-color: $color-white;
+}

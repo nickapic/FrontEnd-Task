@@ -1,0 +1,40 @@
+.container{
+    display: flex;
+    align-content: center;
+    background-color: $color-primary;
+    height: 70rem;
+    width: auto;
+}
+.web_development-container{
+    margin-left: 10rem;
+    width: 20%;
+    height: 50rem;
+   // background-color: orangered; for testing
+    &-heading{
+        padding-top: 10rem;
+    }
+    &-paragraph{
+        padding-top: 2rem;
+        padding-right: 9rem;
+    }
+}
+.wireframe-container{
+    width: 70%;
+   // background-color: orangered; for testing
+    margin-left: 10rem;
+    padding-top: 10rem;
+    &-heading{
+        margin-left: 5rem;
+
+    }
+    &-paragraph{
+        padding-top: 2rem;
+        margin-left: 5rem;
+    }
+    &-itembox{
+        margin-top: 3rem;
+        background-color: $color-white;
+        height: 70%;
+        width: 90%;
+    }
+}

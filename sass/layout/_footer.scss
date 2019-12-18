@@ -1,0 +1,29 @@
+.footer{
+    background-color: $color-light-black;
+    position: relative;
+}
+.footer-box{
+    display: flex;
+  //  height: 15rem;
+    width: auto;
+    padding-bottom: 5rem;
+   
+
+    &-text-paragraph{
+        margin-top: 5rem;
+        width: 65%;
+    }
+
+    &-menu{
+        margin-top: 4.5rem;
+        width: 40%;
+        display: flex;
+        justify-content: flex-end;
+    }
+}
+
+.copyright_text{
+    position: absolute;
+    bottom: 3rem;
+    right: 10rem;
+}

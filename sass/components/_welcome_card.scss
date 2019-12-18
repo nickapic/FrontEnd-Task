@@ -1,0 +1,26 @@
+.welcome_box{
+    position: relative;
+    height: 70rem;
+    width: 37rem;
+    background-color: $color-primary;
+
+    &-heading{
+        padding-top: 4rem;
+        padding-left: 5rem;
+    }
+    &-paragraph{
+        padding: 3rem 12rem 0rem 5rem
+    }
+    &-border-btn{
+        position: absolute;
+        right: 5rem ;
+        bottom: 7rem;
+        
+    }
+    &-dvdr{
+        padding-top: 2rem;
+        padding-left: 5rem;
+        width: 12rem;
+        height: 3rem;
+    }
+}

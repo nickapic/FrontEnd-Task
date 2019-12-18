@@ -175,11 +175,16 @@ body {
   color: #000;
   border-bottom: solid 2px #000; }
 
+.dropdown-menu-list-btn {
+  text-decoration: none;
+  color: #fff; }
+
 .welcome_box {
   position: relative;
   height: 70rem;
   width: 37rem;
-  background-color: #448ccb; }
+  background-color: #448ccb;
+  overflow: hidden; }
   .welcome_box-heading {
     padding-top: 4rem;
     padding-left: 5rem; }
@@ -240,6 +245,7 @@ body {
 .image_box {
   margin-left: 15rem;
   width: 100rem;
+  overflow: hidden;
   height: 70rem;
   background-color: #d7d7d7; }
   .image_box-img {
@@ -267,6 +273,21 @@ body {
   font-weight: 700;
   background-color: #fff; }
 
+.dropdown-menu {
+  position: absolute;
+  right: 23rem;
+  top: 5rem;
+  width: auto;
+  background-color: #1e1d1d;
+  padding: 3rem 10rem 1rem 2rem; }
+  .dropdown-menu-list {
+    list-style: none; }
+    .dropdown-menu-list-items {
+      text-transform: uppercase;
+      font-size: 1.2rem;
+      font-weight: 800;
+      margin-bottom: 1rem; }
+
 .main_header {
   height: 15vh;
   width: 100%;
@@ -289,6 +310,8 @@ body {
       text-transform: uppercase;
       color: inherit;
       margin-right: 1rem; }
+      .menu_list_items-btn:hover {
+        color: #000; }
   .menu_list_main-items {
     margin-right: 2rem;
     font-size: 1.6rem;
@@ -300,7 +323,8 @@ body {
 .logo_box {
   display: flex;
   align-items: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  position: relative; }
   .logo_box-logo {
     width: 20rem; }
   .logo_box-menu {
@@ -330,7 +354,11 @@ body {
     .contact-form-form-input {
       width: 100%;
       border: solid 2px #d7d7d7;
-      font-family: 'Open Sans', sans-serif; }
+      font-family: 'Open Sans', sans-serif;
+      transition: all 0.2s ease-in; }
+      .contact-form-form-input:focus {
+        outline: none;
+        border: solid 3px #000; }
     .contact-form-form-label {
       padding-top: 0.5rem;
       padding-bottom: 0.75rem; }

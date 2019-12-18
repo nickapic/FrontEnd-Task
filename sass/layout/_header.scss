@@ -15,12 +15,16 @@
         list-style: none;
         font-size: inherit;
         color: $color-white;
+       
         &-btn{
             font-size: inherit;
             text-decoration: none;
             text-transform: uppercase;
             color: inherit;
             margin-right: 1rem;
+            &:hover{
+                color: $color-black;
+            }
         }
     }
     &_main-items{

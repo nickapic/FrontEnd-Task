@@ -1,3 +1,4 @@
+//Chnage most of this to function sna d mixins
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -108,4 +109,26 @@ body {
     display: inline-block;
     text-transform: uppercase;
     font-size: 1.2rem;
+}
+.wireframe-container-itembox{
+    &-heading{
+        font-size: 1.6rem;
+         color: $color-black;
+         font-weight: 800;
+    }
+    &-paragraph{
+        color: $color-black;
+        font-size:1.7rem;
+        font-weight: 400;
+    }
+}
+.wireframe-container-itembox-list-items{
+    list-style: none;
+    font-size: 1.7rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight:400;
+    font-style: italic;
+    color: $color-black;
+    border-bottom: solid 2px $color-black;
 }

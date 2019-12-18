@@ -23,6 +23,9 @@
    // background-color: orangered; for testing
     margin-left: 10rem;
     padding-top: 10rem;
+    //display: flex;
+
+  
     &-heading{
         margin-left: 5rem;
 
@@ -32,9 +35,24 @@
         margin-left: 5rem;
     }
     &-itembox{
-        margin-top: 3rem;
+        margin-top: 5rem;
         background-color: $color-white;
         height: 70%;
         width: 90%;
+        &-box{
+            display: flex;
+        }
+        &-rightbox{
+            width: 40rem;
+        }
+        &-leftbox{
+            width:60rem;
+        }
+        &-heading{
+            padding-top: 5rem;
+        }
+        &-paragraph{
+            padding-top: 1.5rem;
+        }
     }
 }

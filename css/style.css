@@ -56,6 +56,9 @@ body {
 .u-margin-left-none {
   margin-left: 0 !important; }
 
+.u-margin-left-item-box {
+  margin-left: 5rem; }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
@@ -152,6 +155,26 @@ body {
   text-transform: uppercase;
   font-size: 1.2rem; }
 
+.wireframe-container-itembox-heading {
+  font-size: 1.6rem;
+  color: #000;
+  font-weight: 800; }
+
+.wireframe-container-itembox-paragraph {
+  color: #000;
+  font-size: 1.7rem;
+  font-weight: 400; }
+
+.wireframe-container-itembox-list-items {
+  list-style: none;
+  font-size: 1.7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  color: #000;
+  border-bottom: solid 2px #000; }
+
 .welcome_box {
   position: relative;
   height: 70rem;
@@ -199,10 +222,20 @@ body {
     padding-top: 2rem;
     margin-left: 5rem; }
   .wireframe-container-itembox {
-    margin-top: 3rem;
+    margin-top: 5rem;
     background-color: #fff;
     height: 70%;
     width: 90%; }
+    .wireframe-container-itembox-box {
+      display: flex; }
+    .wireframe-container-itembox-rightbox {
+      width: 40rem; }
+    .wireframe-container-itembox-leftbox {
+      width: 60rem; }
+    .wireframe-container-itembox-heading {
+      padding-top: 5rem; }
+    .wireframe-container-itembox-paragraph {
+      padding-top: 1.5rem; }
 
 .image_box {
   margin-left: 15rem;

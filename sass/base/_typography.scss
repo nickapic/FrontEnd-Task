@@ -16,6 +16,13 @@ body {
         color: $color-white;
         text-transform: uppercase;
         font-weight: 800;
+        @include respond(tab-land) { // width < 1200?
+            font-size: 4.1rem; 
+        }
+    
+        @include respond(tab-port) { // width < 900?
+            font-size: 3.7rem; 
+        }
     }
     &-paragraph{
         font-size: 1.7rem;
@@ -29,11 +36,26 @@ body {
         font-size: 2.1rem;
         font-weight: 800;
         text-transform: uppercase;
+        @include respond(tab-land) { // width < 1200?
+            font-size: 1.9rem; 
+        }
+    
+        @include respond(tab-port) { // width < 900?
+            font-size: 1.7rem; 
+        }
     }
     &-paragraph{
         font-size: 1.9rem;
         font-weight: 400;
+        @include respond(tab-land) { // width < 1200?
+            font-size: 1.7rem; 
+        }
+    
+        @include respond(tab-port) { // width < 900?
+            font-size: 1.5rem; 
+        }
     }
+  
 }
 .web_development-container{
     &-heading{

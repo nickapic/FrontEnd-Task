@@ -1,4 +1,7 @@
 .welcome_grid{
     display: flex;
     flex-direction: row;
+    @include respond(phone){
+        flex-direction: column;
+    }
 }

@@ -1,8 +1,13 @@
 .contact-form{
     display: flex;
-    
+    @include respond(phone){
+           flex-direction: column;
+    }
     &-container{
         width: 65rem;
+        @include respond(phone){
+            width: 70%;
+         }
     }
     &-form{
         display: flex;
@@ -11,8 +16,11 @@
         margin-left: 15rem;
         width: 45rem;
         margin-top: 20rem;
-       
-        
+        @include respond(phone){
+            width: 70%;
+            margin-top: 5rem;
+            margin-left: 10rem;
+         }
         &-input{
             width: 100%;
             border: solid 2px $color-grey ;

@@ -1,18 +1,29 @@
 .image_box{
     margin-left: 15rem;
-    width: 90rem;
+    width: 85rem;
     overflow: hidden;
     height: 70rem;
     background-color: $color-grey;
-  
     
-
+    @include respond(big-laptop){
+        width: 80rem;
+        margin-left: 10rem;
+    }
     @include respond(tab-port) { // width < 900?
         width: 77rem; //1 rem = 8px, 8/16 = 50%
+        margin-left: 10rem;
     }
     
     @include respond(big-desktop) {
         width: 90rem; //1rem = 12, 12/16
+        margin-left: 10rem;
+    }
+
+    @include respond(phone){
+        width: 90%;
+        margin: 3rem;
+        margin-left: 0;
+
     }
 
     &-img{

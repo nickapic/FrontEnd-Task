@@ -7,11 +7,17 @@
   //  height: 15rem;
     width: auto;
     padding-bottom: 5rem;
+    @include respond(phone){
+        flex-direction: column;
+     }
    
 
     &-text-paragraph{
         margin-top: 5rem;
         width: 65%;
+        @include respond(phone){
+            width: 90%;
+         }
     }
 
     &-menu{
@@ -19,6 +25,10 @@
         width: 40%;
         display: flex;
         justify-content: flex-end;
+        @include respond(phone){
+            width: 90%;
+            justify-content: center;
+         }
     }
 }
 
@@ -26,4 +36,9 @@
     position: absolute;
     bottom: 3rem;
     right: 10rem;
+    @include respond(phone){
+        bottom: 10%;
+        right: 45%;
+        transform: translateX(-50%,-50%);;
+     }
 }

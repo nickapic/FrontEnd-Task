@@ -4,7 +4,12 @@
     width: 37rem;
     background-color: $color-primary;
     overflow: hidden;
-
+    @include respond(phone){
+        width: 90%;
+        height: 40rem;
+        margin: 3rem;
+        margin-left: 0;
+    }
     &-heading{
         padding-top: 4rem;
         padding-left: 5rem;

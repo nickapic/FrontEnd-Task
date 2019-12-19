@@ -38,10 +38,12 @@ body {
         text-transform: uppercase;
         @include respond(tab-land) { // width < 1200?
             font-size: 1.9rem; 
+            
         }
     
         @include respond(tab-port) { // width < 900?
             font-size: 1.7rem; 
+            margin-left: 5rem;
         }
     }
     &-paragraph{
@@ -53,6 +55,7 @@ body {
     
         @include respond(tab-port) { // width < 900?
             font-size: 1.5rem; 
+            margin-left: 5rem;
         }
     }
   
@@ -66,16 +69,15 @@ body {
     &-paragraph{
         font-size: 1.7rem;
         font-weight: 400;
+        
         @include respond(big-laptop) { // width < 1200?
-            font-size: 1.3rem; 
+            font-size: 1.5rem; 
         }
-        @include respond(tab-land) { // width < 1200?
-            font-size: 1.1rem; 
-        }
-    
         @include respond(tab-port) { // width < 900?
-            font-size: 0.9rem; 
-        } 
+            
+            margin-right: 2rem;
+        }
+   
     }
    
 }
@@ -151,6 +153,7 @@ body {
     &-paragraph{
         color: $color-black;
         font-size:1.7rem;
+        padding-right: 3rem;
         font-weight: 400;
     }
 }

@@ -1,11 +1,12 @@
 .contact-form{
     display: flex;
-    @include respond(phone){
+   
+    @include respond(tab-port){
            flex-direction: column;
     }
     &-container{
         width: 65rem;
-        @include respond(phone){
+        @include respond(tab-port){
             width: 70%;
          }
     }
@@ -14,9 +15,10 @@
         flex-direction: column;
         color: $color-black;
         margin-left: 15rem;
-        width: 45rem;
+        margin-right: 2rem;
+        width: 30%;
         margin-top: 20rem;
-        @include respond(phone){
+        @include respond(tab-port){
             width: 70%;
             margin-top: 5rem;
             margin-left: 10rem;

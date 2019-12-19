@@ -7,7 +7,7 @@
 
 html {
   font-size: 62.5%; }
-  @media only screen and (max-width: 89em) {
+  @media only screen and (max-width: 92em) {
     html {
       font-size: 55%; } }
   @media only screen and (max-width: 75em) {
@@ -113,7 +113,8 @@ body {
         font-size: 1.9rem; } }
     @media only screen and (max-width: 56.25em) {
       .image_box-heading {
-        font-size: 1.7rem; } }
+        font-size: 1.7rem;
+        margin-left: 5rem; } }
   .image_box-paragraph {
     font-size: 1.9rem;
     font-weight: 400; }
@@ -122,7 +123,8 @@ body {
         font-size: 1.7rem; } }
     @media only screen and (max-width: 56.25em) {
       .image_box-paragraph {
-        font-size: 1.5rem; } }
+        font-size: 1.5rem;
+        margin-left: 5rem; } }
 
 .web_development-container-heading {
   font-size: 1.9rem;
@@ -132,15 +134,12 @@ body {
 .web_development-container-paragraph {
   font-size: 1.7rem;
   font-weight: 400; }
-  @media only screen and (max-width: 89em) {
+  @media only screen and (max-width: 92em) {
     .web_development-container-paragraph {
-      font-size: 1.3rem; } }
-  @media only screen and (max-width: 75em) {
-    .web_development-container-paragraph {
-      font-size: 1.1rem; } }
+      font-size: 1.5rem; } }
   @media only screen and (max-width: 56.25em) {
     .web_development-container-paragraph {
-      font-size: 0.9rem; } }
+      margin-right: 2rem; } }
 
 .wireframe-container-heading {
   font-size: 1.9rem;
@@ -205,6 +204,7 @@ body {
 .wireframe-container-itembox-paragraph {
   color: #000;
   font-size: 1.7rem;
+  padding-right: 3rem;
   font-weight: 400; }
 
 .wireframe-container-itembox-list-items {
@@ -223,7 +223,7 @@ body {
 
 .welcome_box {
   position: relative;
-  height: 70rem;
+  height: 67rem;
   width: 37rem;
   background-color: #448ccb;
   overflow: hidden; }
@@ -238,6 +238,12 @@ body {
     padding-left: 5rem; }
   .welcome_box-paragraph {
     padding: 3rem 12rem 0rem 5rem; }
+    @media only screen and (max-width: 92em) {
+      .welcome_box-paragraph {
+        padding-right: 3rem; } }
+    @media only screen and (max-width: 75em) {
+      .welcome_box-paragraph {
+        padding-right: 4rem; } }
   .welcome_box-border-btn {
     position: absolute;
     right: 5rem;
@@ -273,6 +279,9 @@ body {
   .web_development-container-paragraph {
     padding-top: 2rem;
     padding-right: 9rem; }
+    @media only screen and (max-width: 92em) {
+      .web_development-container-paragraph {
+        padding-right: 0; } }
 
 .wireframe-container {
   width: 70%;
@@ -298,7 +307,7 @@ body {
     margin-top: 3rem;
     background-color: #fff;
     height: auto;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     width: 90%; }
     .wireframe-container-itembox-box {
       display: flex; }
@@ -317,21 +326,21 @@ body {
 
 .image_box {
   margin-left: 15rem;
-  width: 85rem;
+  width: 60%;
   overflow: hidden;
-  height: 70rem;
+  height: 67rem;
   background-color: #d7d7d7; }
-  @media only screen and (max-width: 89em) {
+  @media only screen and (max-width: 92em) {
     .image_box {
-      width: 80rem;
+      width: 60%;
       margin-left: 10rem; } }
-  @media only screen and (max-width: 56.25em) {
+  @media only screen and (max-width: 75em) {
     .image_box {
-      width: 77rem;
-      margin-left: 10rem; } }
+      width: 60%;
+      margin-left: 5rem; } }
   @media only screen and (min-width: 112.5em) {
     .image_box {
-      width: 90rem;
+      width: 60%;
       margin-left: 10rem; } }
   @media only screen and (max-width: 37.5em) {
     .image_box {
@@ -364,6 +373,7 @@ body {
   background-color: #fff; }
 
 .dropdown-menu-list {
+  transition: all 0.2s ease-in;
   opacity: 0;
   pointer-events: none;
   position: absolute;
@@ -451,12 +461,12 @@ body {
 
 .contact-form {
   display: flex; }
-  @media only screen and (max-width: 37.5em) {
+  @media only screen and (max-width: 56.25em) {
     .contact-form {
       flex-direction: column; } }
   .contact-form-container {
     width: 65rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .contact-form-container {
         width: 70%; } }
   .contact-form-form {
@@ -464,9 +474,10 @@ body {
     flex-direction: column;
     color: #000;
     margin-left: 15rem;
-    width: 45rem;
+    margin-right: 2rem;
+    width: 30%;
     margin-top: 20rem; }
-    @media only screen and (max-width: 37.5em) {
+    @media only screen and (max-width: 56.25em) {
       .contact-form-form {
         width: 70%;
         margin-top: 5rem;

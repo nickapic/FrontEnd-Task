@@ -1,5 +1,6 @@
 .dropdown-menu-list{
     //display: none;
+    transition: all 0.2s ease-in;
     opacity: 0;
     pointer-events: none;
     position: absolute;
@@ -20,7 +21,7 @@
             margin-bottom: 1rem;
             &:hover{
                 background-color: #fff;
-                color: $color-medium-black ;
+                color: $color-medium-black;
             }    
         }
         &-btn{
@@ -32,7 +33,7 @@
     }
 
     .dropdown-menu {
-        //transition: all 0.2s ;
+        
         &:hover{
             .dropdown-menu-list{
                 opacity: 100%;

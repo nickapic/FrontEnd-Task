@@ -1,21 +1,21 @@
 .image_box{
     margin-left: 15rem;
-    width: 85rem;
+    width: 60%;
     overflow: hidden;
-    height: 70rem;
+    height: 67rem;
     background-color: $color-grey;
     
     @include respond(big-laptop){
-        width: 80rem;
+        width: 60%;
         margin-left: 10rem;
     }
-    @include respond(tab-port) { // width < 900?
-        width: 77rem; //1 rem = 8px, 8/16 = 50%
-        margin-left: 10rem;
+    @include respond(tab-land) { // width < 900?
+        width: 60%; //1 rem = 8px, 8/16 = 50%
+        margin-left: 5rem;
     }
     
     @include respond(big-desktop) {
-        width: 90rem; //1rem = 12, 12/16
+        width: 60%; //1rem = 12, 12/16
         margin-left: 10rem;
     }
 

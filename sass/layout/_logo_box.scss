@@ -1,11 +1,14 @@
 .logo_box{
     display: flex;
+    
     align-items: center;
     justify-content: space-between;
     position: relative;
+   
     &-logo{
         width: 20rem;
         align-self: flex-start;
+      
 
     }
     &-menu{
